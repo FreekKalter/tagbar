@@ -83,14 +83,13 @@ let s:keymaps = [
     \ ['preview',   'p'],
     \ ['nexttag',   '<C-N>'],
     \ ['prevtag',   '<C-P>'],
-    \ ['showproto', '<Space>'],
+    \ ['showproto', '<leader>g'],
     \
     \ ['openfold',      ['+', '<kPlus>', 'zo']],
     \ ['closefold',     ['-', '<kMinus>', 'zc']],
-    \ ['togglefold',    ['o', 'za']],
-    \ ['openallfolds',  ['*', '<kMultiply>', 'zR']],
-    \ ['closeallfolds', ['=', 'zM']],
-    \
+    \ ['togglefold',    ['<space>', 'za']],
+    \ ['openallfolds',  ['zi', '<kMultiply>', 'zR']],
+    \ ['closeallfolds', ['zm', 'zM']],
     \ ['togglesort', 's'],
     \ ['zoomwin',    'x'],
     \ ['close',      'q'],
